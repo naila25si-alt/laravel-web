@@ -28,6 +28,7 @@ class PelangganController extends Controller
      */
     public function store(Request $request)
     {
+        // dd($request->all());
         $data['first_name'] = $request->first_name;
         $data['last_name']  = $request->last_name;
         $data['birthday']   = $request->birthday;
